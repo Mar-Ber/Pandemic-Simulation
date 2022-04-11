@@ -8,9 +8,9 @@ Cell states are defined with Q = Q1 x Q2, where:
 * The Q1 state affects the cell moving and infecting others
 
     Q1 = {no_security_measures, infecting, self_protecting, protecting_others, organizing_protection}
-![state_Q1](https://github.com/Mar-Ber/Pandemic-Simulation/blob/main/images/q2_state.PNG)
+![state_Q1](https://github.com/Mar-Ber/Pandemic-Simulation/blob/main/images/q1_state.PNG)
 * Status Q2 is the health of the individual
 
     Q2 = {healthy, in_quarantine, infected, sick, infected_and_sick, in_hospital, recovered, dead}
-    
+![state_Q2](https://github.com/Mar-Ber/Pandemic-Simulation/blob/main/images/q2_state.PNG)
 
