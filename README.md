@@ -8,6 +8,9 @@ Cell states are defined with Q = Q1 x Q2, where:
 * The Q1 state affects the cell moving and infecting others
 
     Q1 = {no_security_measures, infecting, self_protecting, protecting_others, organizing_protection}
+
 * Status Q2 is the health of the individual
 
     Q2 = {healthy, in_quarantine, infected, sick, infected_and_sick, in_hospital, recovered, dead}
+    
+
